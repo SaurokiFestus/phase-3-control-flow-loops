@@ -1,6 +1,12 @@
+require "pry"
 def happy_new_year
   # your code here
+  counter = 10
+  until counter == 0
+    puts "happy new year"
+    counter -= 1
 end
+binding.pry
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
 def fizzbuzz(num)
